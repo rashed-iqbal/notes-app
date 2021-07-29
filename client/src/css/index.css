@@ -1,0 +1,54 @@
+/* //! START VARIABLES */
+:root {
+  --primary-bg-color: #f0f0f0;
+  --primary-text-color: #333333;
+  --sidebar-width: 75%;
+  --create-btn-color: #0064fe;
+}
+/* //! END VARIABLES */
+/* //? SIDE BAR  */
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.item-center {
+  align-items: center;
+}
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-even {
+  justify-content: space-evenly;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.cursor-pointer{
+  cursor: pointer;
+}

@@ -1,0 +1,65 @@
+/* //! START VARIABLES */
+:root {
+  --primary-bg-color: #f0f0f0;
+  --primary-text-color: #333333;
+  --sidebar-width: 75%;
+  --create-btn-color: #0064fe;
+}
+/* //! END VARIABLES */
+/* //? CREATE NOTE MODAL  */
+.cancel_note {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  
+    background: gray;
+    opacity: 50%;
+  }
+  
+  .create_note_area {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .create_area {
+    height: 500px !important;
+    width: 500px !important;
+    z-index: 1;
+    background: white;
+    border-radius: 10px;
+  }
+
+  .write_note{
+      margin: 20px;
+  }
+
+  .note_title{
+    width: 446px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  .note_desc{
+    width: 446px;
+    padding: 5px;
+    font-size: 14px;
+    margin: 5px 0;
+    height: 320px;
+  }
+
+  .btn_area{
+    float: right;
+  }
+
+  .note_btn{
+    padding: 8px 16px;
+    border: none;
+  }
+
+  .save_btn{
+    background: var(--create-btn-color);
+ 
+    color: white;
+    margin-left: 10px;
+  }

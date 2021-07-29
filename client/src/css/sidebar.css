@@ -1,0 +1,72 @@
+/* //! START VARIABLES */
+:root {
+    --primary-bg-color: #f0f0f0;
+    --primary-text-color: #333333;
+    --sidebar-width: 75%;
+    --create-btn-color: #0064fe;
+  }
+  /* //! END VARIABLES */
+/* //? SIDE BAR  */
+
+
+.sidebar {
+  width: 25%;
+  height: 100vh;
+  background: var(--primary-bg-color);
+  float: left;
+}
+.profile_area {
+  background: white;
+  height: 61px;
+  width: var(--sidebar-width);
+  border-radius: 5px;
+  box-shadow: inset;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.profile_area:hover {
+  box-shadow: gray;
+}
+.profile_logo {
+  border-radius: 6.8px;
+}
+.profile_name {
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.folder_area {
+  width: var(--sidebar-width);
+  margin-top: 30px;
+  height: 320px;
+}
+.active_folders {
+  background: white;
+  height: 46px;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+.folders {
+  height: 46px;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+
+.folder_text_logo {
+  margin-left: 15px;
+}
+
+.folder_name {
+  font-size: 13px;
+  margin-left: 10px;
+}
+.folder_dots {
+  margin-right: 15px;
+}
+
+.footer_area {
+  width: var(--sidebar-width);
+  margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+/* //? CREATE NOTE MODAL  */
+.cancel_area {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  
+    background: gray;
+    opacity: 50%;
+  }
+  
+  .add_folder_area {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .create_folder {
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    background: white;
+    border-radius: 10px;
+  }
+
+  .add_folder{
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+  }
+  

@@ -1,0 +1,67 @@
+/* //! START VARIABLES */
+:root {
+    --primary-bg-color: #f0f0f0;
+    --primary-text-color: #333333;
+    --sidebar-width: 75%;
+    --create-btn-color: #0064fe;
+  }
+  /* //! END VARIABLES */
+.notes_area{
+    width: 75%;
+    float: right;
+    
+}
+
+.notes{
+    margin: 0px 30px 0 30px;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-content: start;
+    height: 74vh;
+}
+
+@media screen and (min-width: 768px) {
+    .notes {
+        grid-template-columns: auto auto ;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .notes {
+        grid-template-columns: auto auto auto ;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .notes {
+        grid-template-columns: auto auto auto auto ;
+    }
+  }
+.notes::-webkit-scrollbar{
+    display: none;
+    
+}
+.note{
+    height: 170px;
+    background: var(--primary-bg-color) ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.note:hover{
+    background: #ffe9f4;
+}
+.mobile_notes_area {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 10px 0;
+    height: auto;
+  }
+  .mobile_note {
+    height: 170px;
+    background: #ffe9f4;
+    border-radius: 10px;
+  }
